@@ -107,3 +107,38 @@ h1 {
   text-align: left;
   padding-left: 15px;
 }
+
+@media(max-width:992px){
+
+  .app-title{
+    text-align: center;
+  }
+.div-link{  
+  
+  display: block;
+  margin: 0 auto;
+  width: 215px;}
+
+.greeting {
+font-size: 32x;
+}
+
+h3 {
+  font-size: 64px;
+  }
+  h1{
+    display: flex;
+    padding: 0px 10px;
+  }
+}
+@media(max-width: 992px) {
+  .col-sm-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+ nav  {
+    float: none;
+    width: 100%;
+  }
+}
